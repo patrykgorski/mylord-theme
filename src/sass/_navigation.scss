@@ -1,20 +1,26 @@
-nav{
-	width:230px;
+header{
+	width:100%;
 	position:fixed;
-	top:0;
-	bottom:0;
-	left:0;
-	.hide-nav-box{
-		position: absolute;
-		width: 200px;
-		background-color: #000;
-		top: 0px;
-		bottom: 0px;
-		height: 100%;
-		text-align: top;
-	}
-	.show-nav-box{
-		position:absolute;
-		left:200px;
+	z-index:999;
+	nav{
+		width: 100%;
+		.hide-menu-box{
+			height:35px;
+			width:100%;
+			background-color:red;
+		}
+		.show-menu-box{
+			width: 100%;
+			ul{
+				text-align: center;
+				li{
+					display: inline-block;
+					padding:10px;
+					i{
+						font-size: 24px;
+					}
+				}
+			}
+		}
 	}
 }
