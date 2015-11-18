@@ -3,6 +3,10 @@
 
 /**NAVIGATION**/
 
+$orange:#e65100;
+$greyd4:#212121;
+
+
 /******RESET CSS *****/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,15 +67,9 @@ a:link:active, a:visited:active {
 	opacity:0;
 }
 
-.php{
-	background-color:#10AD00
-}
-.html{
-	background-color:#FF6A05
-}
-.css{
-	background-color:#1D05FF
-}
 body{
 	background-color:#fff;
+	background-image:url('../img/logo_mylordtra.png') !important;
+	background-repeat:no-repeat !important;
+	background-position:center !important;
 }
