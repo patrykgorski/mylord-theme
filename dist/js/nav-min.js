@@ -1,0 +1,1 @@
+$(".page-nav-button").on("click",function(){if($(this).hasClass("alert-button")&&$("span.info-ico").hide(),$(this).hasClass("active"));else{$(".page-nav-button").removeClass("active"),$(this).addClass("active");for(var a=$(".page-nav-button").length,s=0;a-1>=s;s++)$(".page-nav-button").eq(s).hasClass("active")&&($(".sub-menu").hide(),$(".sub-menu").eq(s).show())}});

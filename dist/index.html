@@ -26,7 +26,49 @@
             <header>
                 <nav>
                     <div class="hide-menu-box">
-                        
+                        <ul>
+                            <li class="sub-menu">
+                                <ul>
+                                    <li class="active"><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <ul>
+                                    <li><a href="#">test</a></li>
+                                    <li class="active"><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <ul>
+                                    <li class=""><a href="#">Powiadomienia</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <ul>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li class="active"><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <ul>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li><a href="#">test</a></li>
+                                    <li class="active"><a href="#">test</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div class="show-menu-box">
                         <div class="logo">
@@ -36,11 +78,44 @@
                             <div class="slogan"></div>
                         </div>
                         <ul>
-                            <li class="active"><i class="fa fa-tachometer"></i></li>
-                            <li><i class="fa fa-sitemap"></i></li>
-                            <li><i class="fa fa-bell-o"></i><span class="info-ico">2</span></li>
-                            <li><i class="fa fa-code"></i></li>
-                            <li><i class="fa fa-cog"></i></li>
+                            <li class="page-nav-button" title="Pulpit">
+                                <i class="fa fa-tachometer"></i>
+                            </li>
+                            <li class="page-nav-button" title="Strony">
+                                <i class="fa fa-sitemap"></i>
+                            </li>
+                            <li class="status-info alert-button page-nav-button" title="Powiadomienia">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="info-ico">3</span>
+                            </li>
+                            <li class="page-nav-button" title="Dodatki">
+                                <i class="fa fa-code"></i>
+                            </li>
+                            <li class="page-nav-button" title="Ustawienia">
+                                <i class="fa fa-cog"></i>
+                            </li>
+                            <!-- Alert box -->
+                            <div class="ui custom popup transition hidden custom-popup">
+                                <div class="alert-box">
+                                    <div class="alert-ico">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="alert-text"><p>Dostałeś nową wiadomość!</p></div>
+                                </div>
+                                <div class="alert-box">
+                                    <div class="alert-ico">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="alert-text"><p>Dostałeś nową wiadomość!</p></div>
+                                </div>
+                                <div class="alert-box">
+                                    <div class="alert-ico">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div class="alert-text"><p>Dostałeś nową wiadomość!</p></div>
+                                </div>
+                            </div>
+                            <!-- /Alert box -->
                         </ul>
                     </div>
                 </nav>
@@ -50,7 +125,14 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="semantic/dist/semantic.min.js"></script>
-
-        <script src="js/main.js"></script>
+        <script src="js/nav-min.js"></script>
+        <script type="text/javascript">
+        $('.status-info')
+          .popup({
+            popup : $('.custom.popup'),
+            on    : 'click',
+            position : 'bottom center'
+          });
+        </script>
     </body>
 </html>
