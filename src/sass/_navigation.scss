@@ -32,12 +32,16 @@ header{
 							padding:0 10px;
 							@include fontNato;
 							font-weight: bold;
+							font-size: 12px;
 							a{
 								color:#e0e0e0;
 								cursor: pointer;
 								text-decoration: none;
 								&:hover{
 									color:#fff;
+								}
+								i{
+									font-size: 14px;
 								}
 							}
 						}

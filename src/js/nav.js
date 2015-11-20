@@ -1,6 +1,22 @@
+
+/*ALERT INFO*/
+
+$('.status-info')
+  .popup({
+    popup : $('.custom.popup'),
+    on    : 'click',
+    position : 'bottom center'
+ });
+
 $('.page-nav-button').on('click', function(){
 	if($(this).hasClass('alert-button')){
 		$('span.info-ico').hide();
+		$('.status-info')
+		  .popup({
+		    popup : $('.custom.popup'),
+		    on    : 'dblclick',
+		    position : 'bottom center'
+		 });
 	}
 
 	if($(this).hasClass('active')){

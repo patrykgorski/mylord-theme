@@ -106,6 +106,7 @@ header nav .hide-menu-box ul .sub-menu ul li {
   padding: 0 10px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
+  font-size: 12px;
 }
 header nav .hide-menu-box ul .sub-menu ul li.active {
   background-color: #e65100;
@@ -120,6 +121,9 @@ header nav .hide-menu-box ul .sub-menu ul li a {
 }
 header nav .hide-menu-box ul .sub-menu ul li a:hover {
   color: #fff;
+}
+header nav .hide-menu-box ul .sub-menu ul li a i {
+  font-size: 14px;
 }
 header nav .show-menu-box {
   width: 100%;
