@@ -6,6 +6,11 @@
 $orange:#e65100;
 $greyd4:#212121;
 
+/***** HELPER CSS ****/
+.logo{
+	@include fontLogo;
+}
+
 
 /******RESET CSS *****/
 html, body, div, span, applet, object, iframe,
@@ -68,7 +73,7 @@ a:link:active, a:visited:active {
 }
 
 body{
-	background-color:#fff;
+	background-color:#eeeeee !important;
 	background-image:url('../img/logo_mylordtra.png') !important;
 	background-repeat:no-repeat !important;
 	background-position:center !important;

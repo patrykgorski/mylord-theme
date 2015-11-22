@@ -1,3 +1,14 @@
+/*NAV SIZE CHANGE*/
+
+
+// function subMenuWidth(){
+// 	var $wSubmenu = $('.hide-menu-box ul li');
+// 	if($wSubmenu.innerHeight()>37){
+// 		$wSubmenu.parent().parent().css({'margin-top':"-"+$wSubmenu.innerHeight()+"px"});
+// 	}else{
+
+// 	}
+// }
 
 /*ALERT INFO*/
 

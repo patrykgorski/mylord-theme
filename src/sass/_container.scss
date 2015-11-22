@@ -1,0 +1,16 @@
+.all-conteiner{
+	width:1024px;
+	position:relative;
+	top:80px;
+	margin:auto;
+	.header{
+		width: 100%;
+		.title{
+			@include fontNato;
+			font-weight: bold;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size:40px;
+		}
+	}
+}
