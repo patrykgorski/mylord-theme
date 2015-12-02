@@ -1,16 +1,62 @@
 .all-conteiner{
 	width:1024px;
 	position:relative;
-	top:80px;
+	padding-top: 80px;
+	padding-bottom: 10px;
 	margin:auto;
+	@media(max-width:$widthPage){
+		width: 90%;
+	}
 	.header{
+		position:relative;
 		width: 100%;
+		.close-btn{
+		    position: absolute;
+		    top: 0;
+		    right: 0;
+		    width: 30px;
+		    height: 30px;
+		    background: none;
+		    border: 1px solid #a5a5a5;
+		    border:none;
+		    // border-radius: 50%;
+		    // color: #a5a5a5;
+		    // font-size: 16px;
+		    // transition: all .1s linear;
+		    // &:hover{
+		    // 	color:#545454;
+		    // 	border:none;
+		    // 	font-size:24px;
+		    // }
+		}
 		.title{
-			@include fontNato;
 			font-weight: bold;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			font-size:40px;
+			text-align: center;
+			position:relative;
+			.logo{
+				position:relative;
+				h3{
+					font-size:46px;
+					@include fontLogo;
+				}
+				span{
+					@include fontNato;
+					position:absolute;
+					bottom:0;
+					font-size: 12px;
+					color:#A5A5A5;
+				}
+			}
+		}
+		.open-text{
+			@include fontNato;
+			font-size: 14px;
+			@media(max-width:$widthPage){
+				width: 900px;
+				margin:auto;
+			}
 		}
 	}
 }

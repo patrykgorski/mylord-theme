@@ -6,11 +6,8 @@
 $orange:#e65100;
 $greyd4:#212121;
 
-/***** HELPER CSS ****/
-.logo{
-	@include fontLogo;
-}
-
+/***** MAX WIDTH PAGE ****/
+$widthPage:'1024px';
 
 /******RESET CSS *****/
 html, body, div, span, applet, object, iframe,
