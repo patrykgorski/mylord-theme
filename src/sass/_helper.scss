@@ -28,3 +28,10 @@
     width:100%;
     position:absolute;
 }
+
+.h-width-container{
+    width: $widthPage;
+    @media(max-width:$widthPage){
+        width: 90%;
+    }
+}

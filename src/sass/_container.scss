@@ -33,8 +33,11 @@
 			font-weight: bold;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			text-align: center;
 			position:relative;
+			h4{
+				font-size: 26px;
+				@include fontNato;
+			}
 			.logo{
 				position:relative;
 				h3{
